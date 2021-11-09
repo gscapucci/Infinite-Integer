@@ -615,7 +615,6 @@ const Infinite& Infinite::operator-=(const Infinite& I)
 
 const Infinite& Infinite::operator*=(const Infinite& I)
 {
-    Timer t;
     long long size, diff, initSize, ISize;
     std::vector<int8_t> sum;
 
